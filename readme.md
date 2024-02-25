@@ -9,7 +9,15 @@
 ## Questions
 ### Describe how Kotlin handles null safety. What are nullable types and non-null types in Kotlin? (0,5 points)
 
-<span style="color:blue">Provide your answer here! </span>
+
+
+<span style="color:blue">Provide your answer here!
+The character '?' makes variables and values nullable. That means when you declare a varible like this
+var test: String? = null 
+The variable is nullable and prevents a NullPointerException
+A non-nullable would simply look like this pre-given example down there. There is no '?' symbol after the datatype,
+so the variable is not nullable.
+</span>
 > Note: you can also use code snippets to illustrate your answer. 
 
 ```kotlin 
@@ -19,7 +27,11 @@ val a: String = "value" // non-null type
 
 ### What are lambda expressions and higher order functions in Kotlin? Why would you store a function inside a variable? (0,5 points)
 
-<span style="color:blue">Provide your answer here!</span>
+<span style="color:blue">Provide your answer here!
+I would say that lamda expressions are like "shortcuts" for functions. You can use them without having to declare them
+Higher functions are functions which take other functions as arguments AND/OR return them as results.
+Why would I store a function inside a variable? Simple because it allows you to be more flexible inside the code.
+</span>
 
 ### Provide a solution for the following number guessing game inside `App.kt`. (3 points)
 
