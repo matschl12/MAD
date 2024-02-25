@@ -11,7 +11,7 @@
 
 
 
-<span style="color:blue">Provide your answer here!
+<span style="color:blue">
 The character '?' makes variables and values nullable. That means when you declare a varible like this
 var test: String? = null 
 The variable is nullable and prevents a NullPointerException
@@ -27,7 +27,7 @@ val a: String = "value" // non-null type
 
 ### What are lambda expressions and higher order functions in Kotlin? Why would you store a function inside a variable? (0,5 points)
 
-<span style="color:blue">Provide your answer here!
+<span style="color:blue">
 I would say that lamda expressions are like "shortcuts" for functions. You can use them without having to declare them
 Higher functions are functions which take other functions as arguments AND/OR return them as results.
 Why would I store a function inside a variable? Simple because it allows you to be more flexible inside the code.
